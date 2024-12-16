@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_astroid","order":1,"path":"objects/obj_astroid/obj_astroid.yy",},
+    {"name":"spr_astroid_large","order":3,"path":"sprites/spr_astroid_large/spr_astroid_large.yy",},
+    {"name":"spr_astroid_medium","order":1,"path":"sprites/spr_astroid_medium/spr_astroid_medium.yy",},
+    {"name":"spr_astroid_small","order":2,"path":"sprites/spr_astroid_small/spr_astroid_small.yy",},
+  ],
+}
