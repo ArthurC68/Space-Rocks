@@ -34,11 +34,13 @@
   "name":"SpaceRocks",
   "resources":[
     {"id":{"name":"obj_astroid","path":"objects/obj_astroid/obj_astroid.yy",},},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"spr_astroid_large","path":"sprites/spr_astroid_large/spr_astroid_large.yy",},},
     {"id":{"name":"spr_astroid_medium","path":"sprites/spr_astroid_medium/spr_astroid_medium.yy",},},
     {"id":{"name":"spr_astroid_small","path":"sprites/spr_astroid_small/spr_astroid_small.yy",},},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},},
   ],
   "resourceType":"GMProject",
