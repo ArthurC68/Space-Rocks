@@ -28,7 +28,7 @@ switch (room){
 	
 	case rm_win:
 		draw_set_halign(fa_center);
-			var c = c_purple;
+			var c = c_ltgrey;
 				draw_text_transformed_color(room_width/2, 100, "YOU WON!",3,3,0,c,c,c,c,1);
 		
 				draw_text(
@@ -42,7 +42,7 @@ switch (room){
 	
 	case rm_gameover:
 		draw_set_halign(fa_center);
-				var c = c_purple;
+				var c = c_red;
 					draw_text_transformed_color(room_width/2, 100,"GAME OVER",3,3,0,c,c,c,c,1);
 		
 					draw_text(
