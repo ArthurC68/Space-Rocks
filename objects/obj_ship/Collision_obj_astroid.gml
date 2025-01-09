@@ -1,11 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 lives -=1;
 speed = 0;
-x = room_width/2;
-y= room_height/2;
+
+with(obj_game){
+	
+	alarm[1] = room_speed;
+}
 
 
-repeat (10){
+audio_play_sound(snd_destroy,1,false);
+
+repeat (20){
 		instance_create_layer(x,y,"Instances",obj_debris)
 	}
+instance_destroy();
+with(other){
+	instance_destroy();
+	
+}
