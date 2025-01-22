@@ -22,18 +22,16 @@ switch (room){
 			draw_text_transformed_color(room_width/2, 100, "SPACE ROCKS",3,3,0,c,c,c,c,1);
 		
 			draw_text(room_width/2,200,_instructions);
+			draw_text_transformed(20,60,particle_get_info(ps_flames),0.6,0.6,0);
 			draw_set_halign(fa_left);
 			break;
 	
 	case rm_win:
 		draw_set_halign(fa_center);
-			var c = c_ltgrey;
+			var c = c_lime;
 				draw_text_transformed_color(room_width/2, 100, "YOU WON!",3,3,0,c,c,c,c,1);
 		
-				draw_text(
-					room_width/2,200,
-					">> PRESS ENTER TO START <<"
-				);
+				draw_text(room_width/2,200,">> PRESS ENTER TO START <<");
 				draw_set_halign(fa_left);
 	
 		break;

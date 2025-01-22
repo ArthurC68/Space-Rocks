@@ -21,11 +21,12 @@ else if (speed<0) {
 	speed += 0.03;
 }
 	
-
-	
-	
-	
-	
+//particle system
+/*
+particle_get_info(ps_flames)
+part_system_position_inst, x, y);
+part_system_angle(ps_mode_stream, image_angle);
+	*/
 //speed cap
 speed = clamp(speed,0,8);
 

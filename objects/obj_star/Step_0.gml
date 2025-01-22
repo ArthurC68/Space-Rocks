@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = 10;
+move_wrap(true,true,sprite_width/2);
