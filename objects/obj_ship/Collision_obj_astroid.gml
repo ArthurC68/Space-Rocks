@@ -16,7 +16,9 @@ repeat (20){
 		instance_create_layer(x,y,"Instances",obj_debris)
 	}
 instance_destroy();
+instance_destroy(ps);
 with(other){
 	instance_destroy();
+	
 	
 }
