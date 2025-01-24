@@ -2,7 +2,7 @@
 // You can write your code in this editor
 score = 0;
 lives = 5;
-
+global.ps = part_system_create(ps_flames);
 draw_set_font(fnt_text);
 
 randomize();

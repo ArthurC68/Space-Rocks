@@ -13,9 +13,11 @@ if(keyboard_check(vk_right)) {
 
 if(keyboard_check(vk_up)) {
 	motion_add(image_angle, 0.07);
+	part_type_life(global.pt,5,10);
 }
 else if (speed>0) {
 	speed -= 0.03;
+	part_type_life(global.pt,1,3);
 }
 else if (speed<0) {
 	speed += 0.03;
@@ -24,8 +26,8 @@ else if (speed<0) {
 //particle system
 
 
-part_system_position(ps,x, y);
-part_system_angle(ps, image_angle+90);
+part_system_position(global.ps,x, y);
+part_system_angle(global.ps, image_angle+90);
 
 //speed cap
 speed = clamp(speed,0,8);
