@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-musicmode = false;
-if(musicmode = true){
-	audio_play_sound(snd_gamemusic,6,true);
-}
+
+audio_play_sound(snd_gamemusic,6,true);
+
 if (keyboard_check_pressed(vk_enter)){
 	switch(room){
 		case rm_start:

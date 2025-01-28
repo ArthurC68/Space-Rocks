@@ -13,7 +13,7 @@ with(obj_game){
 audio_play_sound(snd_destroy,1,false);
 
 repeat (20){
-		instance_create_layer(x,y,"Instances",obj_debris)
+		instance_create_layer(x,y,"Instances",obj_debris_1)
 	}
 instance_destroy();
 part_system_clear(global.ps);
